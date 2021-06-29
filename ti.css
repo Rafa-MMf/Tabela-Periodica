@@ -1,0 +1,32 @@
+body {
+	background-image: url('https://images.theconversation.com/files/256881/original/file-20190201-127151-v79x6o.jpg?ixlib=rb-1.1.0&rect=218%2C0%2C3132%2C1563&q=45&auto=format&w=1356&h=668&fit=crop');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div {
+	text-align: center;
+	margin: 169.5px;
+	background-color:rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    display: grid;
+}
+
+a {
+	margin: 40px;
+	border-radius: 10px;    
+    text-align: center;    
+    background-color: rgb(32, 32, 32);
+    color:white;
+    cursor: pointer;
+    transition: 0.25s;
+    width: 150px; 
+    font-size:1.5em;
+    text-decoration: none;
+
+}
+
+a:hover {
+    transform: scale(1.05);
+}
